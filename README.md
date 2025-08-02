@@ -8,19 +8,6 @@ This project unifies two machine-learning pipelines—fruit image classification
 
 ---
 
-## 📑 Table of Contents
-1. [Project Overview](#project-overview)  
-2. [Quick Start](#quick-start)  
-3. [Usage](#usage)  
-4. [Repository Structure](#repository-structure)  
-5. [Technical Details](#technical-details)  
-6. [Results](#results)  
-7. [Limitations & Future Work](#limitations--future-work)  
-8. [Contributors](#contributors)  
-9. [License](#license)  
-
----
-
 ## Project Overview
 
 | Phase | Goal | Key Models |
