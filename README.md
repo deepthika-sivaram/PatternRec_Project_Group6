@@ -14,7 +14,7 @@ This project unifies two machine-learning pipelines—fruit image classification
 |-------|------|------------|
 | **1. Data Collection** | 12 k smartphone images of four fruits (Apple, Grapes, Peach, Raspberry) in three photographic variants each. | – |
 | **2. Computer Vision** | Transfer-learn **ResNet-50** (fruit type) and **EfficientNet-B0** (variant). | ResNet-50, EfficientNet-B0 |
-| **3. NLP** | Semantic recipe retrieval from `RAW_recipes.csv` + `RAW_interactions.csv`. | Fine-tuned `all-MiniLM-L6-v2` |
+| **3. NLP** | Semantic recipe retrieval from `RAW_recipes.csv` + `RAW_interactions.csv`. | Fine-tuned `all-MiniLM-L6-v2` https://huggingface.co/datasets/dsivaram/recipe-api/tree/main |
 | **4. Deployment** | Single-page web app with ONNX.js (CV) + Flask (NLP) hosted on Render. | ONNX, Flask |
 
 **Why it matters:** Grocers and meal-planning apps can instantly identify produce quality/variant **and** surface suitable recipes, creating a seamless “snap & cook” user journey.
