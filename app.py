@@ -142,6 +142,10 @@ def recipe_detail(recipe_id):
 def upload_image():
     return render_template('upload_image.html')
 
+@app.route('/report')
+def report():
+    return render_template('report.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True)
