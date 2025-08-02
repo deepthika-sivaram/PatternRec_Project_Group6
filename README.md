@@ -1,4 +1,4 @@
-# 🍓 Pattern Recognition Project – Group 6
+# Pattern Recognition Project – Group 6
 
 **Team:** Deepthika Sivaram & Derek Lu  
 **Course:** Pattern Recognition — University at Buffalo  
