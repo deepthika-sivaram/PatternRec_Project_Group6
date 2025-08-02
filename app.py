@@ -33,7 +33,7 @@ if not os.path.exists(model_dir):
 
 # === INIT FLASK ===
 app = Flask(__name__)
-# model_dir = "bert_recipe_model/"+model_dir
+model_dir = "bert_recipe_model/"+model_dir
 # === LOAD MODELS AND DATA ===
 print("📦 Loading model and data...")
 model = SentenceTransformer(model_dir)
@@ -147,5 +147,6 @@ def report():
     return render_template('report.html')
 
 
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 3000))
+    app.run(host="0.0.0.0", port=port)
